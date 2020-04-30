@@ -48,6 +48,6 @@ namespace SimpleAPI
             });
         }
 
-        //This is end of file.
+        //This is end of file. //For auto trigger.
     }
 }
