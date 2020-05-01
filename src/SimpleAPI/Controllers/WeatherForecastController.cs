@@ -11,9 +11,14 @@ namespace SimpleAPI.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        //private static readonly string[] Summaries = new[]
+        //{
+        //    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        //};
+
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "F", "B", "C", "C", "M", "W", "B", "H", "S", "S"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
